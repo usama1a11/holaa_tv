@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+// import 'package:fluttertoast/fluttertoast.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
@@ -50,7 +50,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
           },
           onWebResourceError: (WebResourceError error) {
             print("Web resource error: ${error.description}");
-            showToast("Failed to load page: ${error.description}");
+            // showToast("Failed to load page: ${error.description}");
           },
         ),
       )
@@ -64,21 +64,20 @@ class _WebViewScreenState extends State<WebViewScreen> {
         // showToast("Connected");
       }
     } on SocketException catch (_) {
-      showToast("Not connected");
+      // showToast("Not connected");
     }
   }
 
-  void showToast(String message) {
-    Fluttertoast.showToast(
-        msg: message,
-        toastLength: Toast.LENGTH_LONG,
-        gravity: ToastGravity.CENTER,
-        timeInSecForIosWeb: 1,
-        backgroundColor: Colors.red,
-        textColor: Colors.white,
-        fontSize: 16.0);
-  }
-
+  // void showToast(String message) {
+  //   Fluttertoast.showToast(
+  //       msg: message,
+  //       toastLength: Toast.LENGTH_LONG,
+  //       gravity: ToastGravity.CENTER,
+  //       timeInSecForIosWeb: 1,
+  //       backgroundColor: Colors.red,
+  //       textColor: Colors.white,
+  //       fontSize: 16.0);
+  // }
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
