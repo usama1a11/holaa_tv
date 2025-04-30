@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:holaa_tv/web_view_screen.dart';
+import 'package:holaa_tv/enter_mobile.dart';
 import 'package:video_player/video_player.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -25,9 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
     // Navigate to home after video ends
     _controller.addListener(() {
       if (_controller.value.position == _controller.value.duration) {
-        Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (_) => const WebViewScreen()),
-        );
+        Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_) => MobileNumberScreen()),);
       }
     });
   }

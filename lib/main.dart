@@ -1,10 +1,12 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:holaa_tv/splash_screen.dart';
-import 'package:holaa_tv/web_view_screen.dart';
-import 'package:video_player/video_player.dart';
+import 'package:holaa_tv/description_screen.dart';
 
-void main() {
-  runApp(const MyApp());
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -15,7 +17,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Video Splash App',
       debugShowCheckedModeBanner: false,
-      home:  SplashScreen(),
+      // home: PhoneAuthScreen(),
+      // home: SplashScreen(),
+      home:  SubscriptionScreen(),
+      // home: OtpVerificationScreen(),
     );
   }
 }
