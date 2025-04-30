@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "310754979512",
+    "project_id": "holaa-tv",
+    "storage_bucket": "holaa-tv.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310754979512:android:1d1a04f1c361a0ab9fce4d",
+        "android_client_info": {
+          "package_name": "com.meharjunaid49.holaa_tv"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2P6F_3N7rgZCojr7fqx21IECFdNQKTO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

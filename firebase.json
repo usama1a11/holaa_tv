@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"holaa-tv","appId":"1:310754979512:android:1d1a04f1c361a0ab9fce4d","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"holaa-tv","configurations":{"android":"1:310754979512:android:1d1a04f1c361a0ab9fce4d","ios":"1:310754979512:ios:cbab7809d2477c679fce4d"}}}}}}
