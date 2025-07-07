@@ -42,9 +42,8 @@
 - Android Studio / VS Code
 - Emulator or real device
 
-### Installation
+## Contact Us 
+- usamaliaqat678@gmail.com
+- 03065126890
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/hola_tv.git
-   cd hola_tv
+
